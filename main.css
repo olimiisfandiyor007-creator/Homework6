@@ -396,6 +396,21 @@
     gap: 50px;
 }
 @media (max-width: 510px) {
+    .p{
+        font-size: 22px
+    }
+    .p1{
+        font-size: 17px;
+    }
+    .section-5{
+        width: 95%;
+    }
+    .grid-1{
+        display: grid;
+        grid-template-columns: repeat(12, 180px);
+        grid-template-rows: 150px;
+        overflow-x: scroll;
+    }
     .section-4-p2{
         width: 100%;
         font-size: 18px;
@@ -418,8 +433,8 @@
         width: 99%;
     }
     .circle{
-        width: 240px;
-        height: 240px;
+        width: 220px;
+        height: 220px;
     }
     .section-3{
         width: 99%;
