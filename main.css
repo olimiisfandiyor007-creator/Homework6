@@ -2,9 +2,6 @@
     margin: 0;
     font-family: sans-serif;
 }
-body{
-    padding: 2px;
-}
 .background{
     background: linear-gradient(90deg,#1B1E31E5, #1B1E3100);
     width: 100%;
@@ -375,6 +372,20 @@ body{
     line-height: 25px;
 }
 @media (max-width: 510px) {
+    .section-4-p2{
+        width: 100%;
+        font-size: 18px;
+    }
+    .section-4-part1{
+        width: 100%;
+    }
+    .section-4{
+        flex-direction: column;
+        gap: 30px;
+    }
+    body{
+        padding: 2px;
+    }
     .section-3-p3{
         font-size: 45px;
         padding-left: 20px;
