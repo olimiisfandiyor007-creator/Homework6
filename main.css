@@ -528,6 +528,22 @@
 }
 
 @media (max-width: 510px) {
+    .input1{
+        width: 320px;
+    }
+    .section-8-p{
+        font-size: 40px;
+    }
+    .section-8-p1{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .section-8{
+        width: 95%;
+    }
+    .flexx1{
+        flex-direction: column;
+    }
     .section-7{
         width: 95%;
         flex-direction: column;
