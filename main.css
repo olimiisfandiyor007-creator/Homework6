@@ -467,6 +467,25 @@
 }
 
 @media (max-width: 510px) {
+    .section-7{
+        width: 95%;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .grid-4{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 410px;
+        gap: 30px;
+        overflow-x: scroll;        
+    }
+    .flexcolumn{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .itemmm{
+        padding: 20px;
+    }
     .mini-grid{
         overflow-x: scroll;
     }
