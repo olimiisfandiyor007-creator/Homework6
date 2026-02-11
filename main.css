@@ -229,6 +229,12 @@
     color: #3D3D3D;
     line-height: 80%;
 }
+.section-3-p3{
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 80%;
+}
 .section-1-p2{
     font-size: 17px;
     font-weight: 400;
@@ -245,6 +251,71 @@
     display: flex;
     align-items: center;
     gap: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 300px);
+}
+.item1{
+    place-content: center;
+    background-color: #FFFFFF;
+    border: 1px solid grey;
+}
+.item2{
+    place-content: center;
+    background-color: #FFFFFF;
+    border: 1px solid grey;
+}
+.item3{
+    place-content: center;
+    background-color: #FFFFFF;
+    border: 1px solid grey;
+}
+.item4{
+    place-content: center;
+    background-color: #FFFFFF;
+    border: 1px solid grey;
+}
+.item5{
+    place-content: center;
+    background-color: #FFFFFF;
+    border: 1px solid grey;
+}
+.item6{
+    place-content: center;
+    background-color: #FFFFFF;
+    border: 1px solid grey;
+}
+.bg{
+    background-color: #1B1E31;
+    width: 100%;
+}
+.section-3-p{
+    font-size: 36px;
+    font-weight: 700;
+}
+.width1{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section-3-p1{
+    font-size: 16px;
+    font-weight: 400;
+    width: 80%;
+    line-height: 25px;
+}
+.section-3{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 @media (max-width: 510px) {
     .section-11-p{
