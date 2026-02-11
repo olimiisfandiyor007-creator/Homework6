@@ -210,5 +210,28 @@
         padding-bottom: 150px;
         width: 90%;
     }
-
+    .section-1{
+        flex-direction: column;
+        width: 95%;
+    }
+    .img1{
+        width: 95%;
+    }
+    .img2{
+        width: 100%;
+    }
+    .section-1-p1{
+        font-size: 40px;
+        line-height: 100%;
+    }
+    .section-1-p2{
+        font-size: 40px;
+        font-size: 18px;
+    }
+    .section-1-p{
+        font-size: 40px;
+    }
+    .hr1{
+        width: 40px;
+    }
 }
