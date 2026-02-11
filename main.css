@@ -116,7 +116,57 @@
 .none1{
     display: none;
 }
-
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 100px;
+    margin-top: 100px;
+}
+.section-1{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    gap: 100px;
+}
+.section-1-p{
+    font-size: 50px;
+    font-weight: 700;
+    color: #60C880;
+}
+.section-1-part2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.columns{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.section-1-p1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #3D3D3D;
+    line-height: 80%;
+}
+.section-1-p2{
+    font-size: 17px;
+    font-weight: 400;
+    color: #3D3D3D;
+    line-height: 30px;
+}
+.hr1{
+    width: 70px;
+    background-color: #60c87f96;
+    height: 3px;
+    border: none;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 @media (max-width: 510px) {
     .none{
         display: none;
